@@ -1,3 +1,8 @@
 {
-  "extends": "next/core-web-vitals"
+  "extends": "next/core-web-vitals",
+  "rules": {
+    "react/nounescaped-entities": "off",
+    "@next/next/no-page-custom-font": "off",
+    "@next/next/no-html-for-pages": ["error", "packages/my-app/pages/"]
+  }
 }
